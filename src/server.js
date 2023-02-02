@@ -16,3 +16,7 @@ app.get("/",(req,res)=>{
 app.get("/user",(req,res)=>{
     res.json({name:"fredy", email:"fredy@gmail.com"})
 });
+
+app.get("/users",(req,res)=>{
+    res.json(["usuario1","usuario2"])
+});
